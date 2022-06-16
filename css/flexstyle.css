@@ -18,7 +18,6 @@ Desktop: 1440px */
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
   --white-paragraph: hsla(0, 0%, 100%, 0.75);
-  /* For bg, btn, headings */
   --light-gray: hsl(0, 0%, 95%);
   --font: 15px;
   --font-small-weight: 400px;
@@ -51,10 +50,32 @@ h3 {
 }
 
 p {
-  color: var(--light-gray);
+  color: var(--white-paragraph);
   font-size: 1.3rem;
-  margin-bottom: 2.34rem;
+  margin-bottom: 2rem;
   font-family: var(--ff-primary);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--light-gray);
+  background: linear-gradient(rgba(227, 136, 38, 0.7), rgba(91, 151, 155, 0.2));
+  margin-top: 1rem;
+}
+
+.nav-links .nav-link {
+  font-size: 2rem;
+  color: var(--light-gray);
 }
 
 .btn {
@@ -81,21 +102,20 @@ p {
 
 .cars {
   width: 80vw;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 
 .sedans,
 .suv,
 .luxury {
   padding: 1rem;
-  height: 60vh;
+  height: 65vh;
   justify-content: center;
   margin: auto;
 }
 
 .sedans {
   background: var(--bright-orange);
-  align-content: center;
 }
 
 .sedans .btn {
