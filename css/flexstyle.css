@@ -2,9 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 
-/* Mobile: 375px
-Desktop: 1440px */
-
 /* Global default Setting */
 * {
   margin: 0;
@@ -69,7 +66,7 @@ a {
   justify-content: space-around;
   align-items: center;
   background: var(--light-gray);
-  background: linear-gradient(rgba(227, 136, 38, 0.7), rgba(91, 151, 155, 0.2));
+  background: linear-gradient(rgba(31, 109, 161, 0.7), rgba(88, 141, 108, 0.2));
   margin-top: 1rem;
 }
 
